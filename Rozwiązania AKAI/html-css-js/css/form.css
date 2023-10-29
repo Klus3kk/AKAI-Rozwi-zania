@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(to right ,rgb(17, 43, 175),rgb(255, 149, 0),rgb(17, 43, 175));
+  font-family: "Arial Bold", "Arial", cursive;
+}
+
+
+#task-frontend {
+  border: 1 solid rgb(255, 255, 255);
+  border-radius: 25px;
+	max-width: 500px;
+  margin: 0 auto;
+	text-align: center;
+  background:rgb(76, 175, 80);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#task-frontend .basic-title {
+  color: rgb(28, 28, 157);
+  margin-top: 10px;
+}
+
+#task-frontend .form-line {
+  border: 1px solid blue;
+  opacity: 0.0;
+}
+
+#task-frontend form>label {
+	margin: 10px auto 0 auto;
+}
+
+#task-frontend .grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: -80px;
+  margin-bottom: -80px;
+  padding: 100px;
+  color: rgb(28, 28, 157);
+}
+
+#task-frontend input[type="text"] {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px;
+  border: 0px solid white;
+  width: 210px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+#task-frontend input[type="email"] {
+  display: inline-block;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  border: 0px solid white;
+  width: 450px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+#task-frontend span {
+  display: block;
+}
+
+#task-frontend input[type="checkbox"] {
+  margin-top: 10px;
+	border: 1px solid red;
+	text-transform: none;
+}
+
+#task-frontend input[type="submit"] {
+	color: rgb(255, 255, 255);
+  background-color: rgb(13, 13, 131);
+	margin-bottom: 20px;
+	width: 100px;
+	height: 30px;
+  border-radius: 25px;
+	text-align: center;
+}

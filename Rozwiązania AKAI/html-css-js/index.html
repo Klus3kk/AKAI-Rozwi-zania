@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AKAI Frontend Task</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+	<section id="task-frontend">
+		<hr class="form-line"></hr>
+		<img src="img/akai.jpg" class="photo" width="50px" height="50px">
+		<span class="basic-title">Formularz rekrutacyjny</span>
+
+
+		<form method="POST">
+			<div class="enter">
+		    	<input type="text" id="first-name" placeholder="Imię" required minlength="1"/>
+		    	<input type="text" id="last-name" placeholder="Nazwisko" required minlength="1"/>
+				<input type="email" id="e-mail" placeholder="E-mail" required letter = "@"/>
+			</div>
+		    
+
+			<span class="basic-title">Wybierz sekcje, które ciebie interesują</span>
+			<div class="grid-container2">
+				<input type="checkbox" id="frontend-checkbox" name="section" value="frontend">
+				<label for="frontend-checkbox">Frontend</label>
+				<input type="checkbox" id="backend-checkbox" name="section" value="frontend">
+				<label for="backend-checkbox">Backend</label>
+				<input type="checkbox" id="mobile-checkbox" name="section" value="frontend">
+				<label for="mobile-checkbox">Mobile</label>
+				<input type="checkbox" id="graphics-checkbox" name="section" value="frontend">
+				<label for="graphics-checkbox">Grafika</label>
+			</div>
+            <input type="submit" value="Wyślij">
+		</form>
+
+		<hr class="form-line"></hr>
+	</section>
+</body>
+</html>
